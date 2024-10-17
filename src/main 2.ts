@@ -91,7 +91,7 @@ console.log(calculator.multiply(3, 4)); // Виведе: "Calling "multiply" wit
 namespace UserProfile {
   export interface ProfileInterface {
       id: string;
-      name: number;
+      name: string;
       email: string;
   }
 
@@ -111,4 +111,4 @@ namespace UserProfile {
  const profile = UserProfile.createProfile('John Doe', 'john@example.com')
  console.log(profile) // { "id": "e6uvai5egqd", "name": "John Doe", "email": "john@example.com" }
 
-export { createPerson, Calculator, UserProfile }
+export { Calculator, createPerson, UserProfile}
